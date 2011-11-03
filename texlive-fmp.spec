@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/fmp
+# catalog-date 2007-01-04 00:44:01 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-fmp
 Version:	20070104
 Release:	1
@@ -43,6 +49,7 @@ TeXLive fmp package.
 %doc %{_texmfdistdir}/source/latex/fmp/fmp-doc.hs
 %doc %{_texmfdistdir}/source/latex/fmp/fmp.dtx
 %doc %{_texmfdistdir}/source/latex/fmp/fmp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ TeXLive fmp package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
