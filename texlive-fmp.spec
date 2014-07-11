@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-fmp
 Version:	20070104
-Release:	7
+Release:	8
 Summary:	Include Functional MetaPost in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fmp
