@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Include Functional MetaPost in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fmp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fmp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fmp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fmp.doc.r%{version}.tar.xz
